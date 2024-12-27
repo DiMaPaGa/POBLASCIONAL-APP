@@ -4,20 +4,19 @@
 
 ## Índice
 
-1. [Características](#características)
-2. [Demo](#demo)
-3. [Tecnologías utilizadas](#tecnologías-utilizadas)
-4. [Requisitos](#requisitos)
-5. [Instalación](#instalación)
-6. [Estructura del proyecto](#estructura-del-proyecto)
-7. [Funcionalidad](#funcionalidad)
-   - [Página Principal (Home)](#página-principal-home)
-   - [Vista de Continente (ContinentView)](#vista-de-continente-continentview)
-8. [Manejo de Errores](#manejo-de-errores)
-9. [Autoría](#Autoría)
-10. [Licencia](#licencia)
+1. [Características](#Características)
+2. [Tecnologías utilizadas](#Tecnologías-utilizadas)
+3. [Requisitos](#Requisitos)
+4. [Instalación](#Instalación)
+5. [Estructura del proyecto](#Estructura-del-proyecto)
+6. [Funcionalidad](#Funcionalidad)
+   - [Página Principal (Home)](#Página-principal-home)
+   - [Vista de Continente (ContinentView)](#Vista-de-continente-continentview)
+7. [Manejo de Errores](#Manejo-de-errores)
+8. [Autoría](#Autoría)
+9. [Licencia](#Licencia)
 
-## 1. Características
+## Características
 
 - Visualiza la población total por continente.
 - Filtra los continentes por un valor mínimo de población.
@@ -25,11 +24,7 @@
 - Filtra por la población de los paises de un mismo continente.
 - Interfaz interactiva con gráficos de barras.
 
-## 2. Demo
-
-Puedes ver el demo en [aquí](#)
-
-## 3. Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **React**: Librería para construir interfaces de usuario interactivas.
 - **React Router**: Para la navegación entre las diferentes vistas de la aplicación.
@@ -37,20 +32,20 @@ Puedes ver el demo en [aquí](#)
 - **Tailwind CSS**: Utilizado para la estilización de la interfaz de usuario de forma rápida y eficiente.
 - **Chart.js**: Usado para mostrar gráficos interactivos.
 
-## 4. Requisitos
+## Requisitos
 
 Para poder correr este proyecto, necesitas tener lo siguiente instalado en tu máquina:
 
 - **Node.js** (Recomendado: versión 14 o superior)
 - **npm** o **yarn** (gestor de paquetes de Node.js)
 
-## 5. Instalación
+## Instalación
 
 ### 1. Clona el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/global-view.git
-cd POBLACIONAL-APP
+git clone https://github.com/DiMaPaGa/POBLASCIONAL-APP.git
+cd POBLASCIONAL-APP
 ```
 
 ### 2. Instala las dependencias
@@ -59,11 +54,6 @@ Si usas npm:
 
 ```bash
 npm install
-```
-
-Si usas yarn:
-```bash
-yarn install
 ```
 
 ### 3. Ejecuta la aplicación en desarrollo 
@@ -82,7 +72,7 @@ npm run dev
 
 Esto iniciará el servidor de desarrollo y podrás ver la aplicación en http://localhost:5173.
 
-## 6. Estructura del proyecto
+## Estructura del proyecto
 
 ```bash
 src/
@@ -105,7 +95,7 @@ src/
     
 ```
 
-## 7. Funcionalidad
+## Funcionalidad
 
 ### Página Principal (Home)
 
@@ -123,18 +113,18 @@ Cuando un usuario hace clic en un continente desde la página principal, se les 
 - **Lista de países**: Muestra los países del continente seleccionado junto con su población.
 
 
-## 8. Manejo de Errores
+## Manejo de Errores
 
 La aplicación maneja errores de la siguiente manera:
 
 - **Error en la solicitud a la API**: Si ocurre un error al obtener los datos de la API de RestCountries, se muestra un mensaje de error en la interfaz.
 - **Sin resultados**: Si no hay continentes con una población igual o superior al valor del filtro, se muestra un mensaje indicando que no hay resultados.
 
-## 9. Autoría
+## Autoría
 
 Proyecto realizado por Diana Mª Pascual como actividad de segundo trimestre de la asignatura de Cliente, del 2º DAW.
 
-## 10. Licencia
+## Licencia
 
 Este proyecto está bajo la licencia GNU General Public License v3.0. Consulta el archivo `LICENSE` para más detalles.
 
