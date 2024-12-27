@@ -122,7 +122,7 @@ La aplicación maneja errores de la siguiente manera:
 
 ## Autoría
 
-Proyecto realizado por Diana Mª Pascual como actividad de segundo trimestre de la asignatura de Cliente, del 2º DAW.
+Proyecto realizado por **Diana Mª Pascual** como actividad de segundo trimestre de la asignatura de Cliente, del 2º DAW.
 
 ## Licencia
 
